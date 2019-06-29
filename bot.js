@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const PREFIX = "~"
+const PREFIX = "bf!"
 const Util = require('discord.js');
  
  
@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 
 console.log('bot is ready');
-client.user.setGame(` |*help|*invite`,"https://www.twitch.tv/mixo")
+client.user.setGame(` bf!help|bf!invite`,"https://www.twitch.tv/BR0OZY16")
 
 
 
